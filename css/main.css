@@ -1,0 +1,58 @@
+/*s: intro*/
+
+#body_container .profile {
+	width: 900px; height: 475px; margin: 162px auto;
+} 
+
+#body_container .profile .introduce {
+	display: inline-block; vertical-align: middle; margin-right: 153px;
+}
+
+#body_container .profile .name {
+	font-size: 150px; line-height: 130px; color: #212e61; font-weight: 800; letter-spacing: -0.005em;
+}	
+
+#body_container .profile .actor {
+	font-size: 31px; color: #212e61; font-weight: 100; margin-top: 50px;
+}
+
+/*e: intro*/
+
+/*s: filmography*/
+
+#body_container .filmography .title {
+	font-size: 62px; color: #212e61; font-weight: 800; letter-spacing: -0.005em;
+	text-align: center; margin-bottom: 80px;
+}
+
+#body_container .filmography .filmography_list {
+	width: 810px; height: 380px; margin: 0 auto;
+}
+
+#body_container .filmography .filmography_list ul li {
+	display: inline-block; text-align: center; margin-left: 100px;
+}
+
+#body_container .filmography .filmography_list ul li:first-child {
+	margin-left: 0;
+}
+
+#body_container .filmography .filmography_list .filmTitle {
+	font-size: 22px; color: #172044; font-weight: 600; margin-top: 33px; 
+}
+
+#body_container .filmography .filmography_list .year {
+	font-size: 16px; color: #172044; font-weight: 600; margin-top: 22px;
+}
+
+#body_container .filmography .filmography_list .view {
+	display: inline-block; margin-top: 45px;
+}
+
+/*e: filmography*/
+
+/*s: behind gallery*/
+
+
+
+/*e: behind gallery*/
