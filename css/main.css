@@ -1,7 +1,7 @@
 /*s: intro*/
 
 #body_container .profile {
-	width: 900px; height: 475px; margin: 162px auto;
+	width: 900px; height: 475px; margin: 200px auto;
 } 
 
 #body_container .profile .introduce {
@@ -53,6 +53,21 @@
 
 /*s: behind gallery*/
 
+#body_container .gallery {
+	margin-top: 200px; 
+}
 
+#body_container .gallery .title {
+	font-size: 62px; color: #212e61; font-weight: 800; letter-spacing: -0.005em;
+	text-align: center; margin-bottom: 80px;
+}
+
+#body_container .gallery .behindcut {
+	width: 1330px;
+}
+
+#body_container .gallery .behindcut .photo {
+	float: left; margin: 20px;
+}
 
 /*e: behind gallery*/
