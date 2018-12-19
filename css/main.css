@@ -1,5 +1,4 @@
 /*s: intro*/
-
 #body_container .profile {
 	width: 900px; height: 475px; margin: 200px auto;
 } 
@@ -15,10 +14,12 @@
 #body_container .profile .actor {
 	font-size: 31px; color: #212e61; font-weight: 100; margin-top: 50px;
 }
-
 /*e: intro*/
 
 /*s: filmography*/
+#body_container .filmography {
+	margin-bottom: 200px;
+}
 
 #body_container .filmography .title {
 	font-size: 62px; color: #212e61; font-weight: 800; letter-spacing: -0.005em;
@@ -48,26 +49,28 @@
 #body_container .filmography .filmography_list .view {
 	display: inline-block; margin-top: 45px;
 }
-
 /*e: filmography*/
 
 /*s: behind gallery*/
-
-#body_container .gallery {
-	margin-top: 200px; 
+#body_container .behindGallery {
+	margin-bottom: 300px;
 }
 
-#body_container .gallery .title {
+#body_container .behindGallery .title {
 	font-size: 62px; color: #212e61; font-weight: 800; letter-spacing: -0.005em;
-	text-align: center; margin-bottom: 80px;
+	text-align: center; margin-bottom: 95px;
 }
 
-#body_container .gallery .behindcut {
-	width: 1330px;
+#body_container .behindGallery .behindCut {
+	width: 1280px; margin: 0 auto;
 }
 
-#body_container .gallery .behindcut .photo {
-	float: left; margin: 20px;
+#body_container .behindGallery .behindCut ul li {
+	display: inline-block; text-align: center; margin: 20px 0 0 20px;
+}
+
+#body_container .behindGallery .behindCut ul li:nth-child(3n+1){
+	margin-left: 0;
 }
 
 /*e: behind gallery*/

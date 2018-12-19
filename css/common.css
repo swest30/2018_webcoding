@@ -60,4 +60,25 @@
 	color: #ff8b7b;
 }
 
+#footer_container {
+	height: 300px;
+	background-color: #172044; padding-top: 150px;
+}
 
+#footer_container .title {
+	color: #fff; font-size: 32px; font-weight: 800; letter-spacing: -0.005em;
+	text-align: center; margin-bottom: 65px;
+}
+
+#footer_container .contact {
+	width: 900px; height: 95px; margin: 0 auto;
+}
+
+#footer_container .contact .item {
+	color: #fff; font-size: 15px;
+	display: inline-block; text-align: center; padding: 16px 43px;
+}
+
+#footer_container .contact .item .adressTitle {
+	font-weight: bold; margin-bottom: 20px;
+}
